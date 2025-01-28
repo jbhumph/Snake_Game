@@ -23,6 +23,10 @@ public class Grid {
         return cells;
     }
 
+    public Cell getCell(int row, int col) {
+        return cells[row][col];
+    }
+
     // returns a string of what a particular cell is filled to
     public String getCellFill(int row, int col) {
         return cells[row][col].getFill();
